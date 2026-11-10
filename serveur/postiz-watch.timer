@@ -1,0 +1,9 @@
+[Unit]
+Description=Refresh Postiz competitor feed hourly
+[Timer]
+OnBootSec=10min
+OnUnitInactiveSec=1h
+RandomizedDelaySec=60
+Persistent=true
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,9 @@
+.env
+data/
+*.log
+.DS_Store
+__pycache__/
+config/capserv-stats/data/
+config/capserv-stats/*-data/
+config/capserv-stats/mesures/
+config/capserv-stats/cadence-media.json

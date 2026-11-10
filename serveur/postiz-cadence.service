@@ -1,0 +1,10 @@
+[Unit]
+Description=Postiz video format collection for publication cadence
+After=docker.service
+[Service]
+Type=oneshot
+Environment=POSTIZ_DIR=__POSTIZ_DIR__
+EnvironmentFile=__POSTIZ_DIR__/.env
+ExecStart=/usr/bin/python3 __POSTIZ_DIR__/config/capserv-stats/collect-media.py
+TimeoutStartSec=180
+Nice=10

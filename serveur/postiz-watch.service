@@ -1,0 +1,9 @@
+[Unit]
+Description=Postiz YouTube competitor feed collection
+After=docker.service
+Requires=docker.service
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/docker exec postiz node /config/capserv-stats/watch-collector.cjs
+TimeoutStartSec=1800
+Nice=10

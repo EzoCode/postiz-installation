@@ -1,0 +1,9 @@
+[Unit]
+Description=Collect social inbox every five minutes
+[Timer]
+OnBootSec=5min
+OnUnitInactiveSec=5min
+RandomizedDelaySec=30
+Persistent=true
+[Install]
+WantedBy=timers.target

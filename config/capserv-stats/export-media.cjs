@@ -1,0 +1,2 @@
+const {PrismaClient}=require('/app/node_modules/@prisma/client');const {sourceKey}=require('./content-grouping.cjs');
+(async()=>{const db=new PrismaClient();try{const posts=await db.post.findMany({where:{deletedAt:null,parentPostId:null,state:'PUBLISHED'},select:{image:true,organizationId:true},take:5000});console.log(JSON.stringify(posts.map(p=>({key:sourceKey(p,p.organizationId),image:p.image})).filter(p=>p.key)));}finally{await db.$disconnect()}})().catch(()=>process.exitCode=1);

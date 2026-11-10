@@ -1,0 +1,10 @@
+[Unit]
+Description=Postiz deterministic social statistics collector
+After=docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/docker exec -w /app postiz node /config/capserv-stats/collector.cjs
+TimeoutStartSec=12min
+Nice=10

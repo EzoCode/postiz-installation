@@ -1,0 +1,10 @@
+[Unit]
+Description=Hourly Postiz social statistics collection
+
+[Timer]
+OnCalendar=hourly
+RandomizedDelaySec=3min
+Persistent=true
+
+[Install]
+WantedBy=timers.target

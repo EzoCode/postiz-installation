@@ -1,0 +1,8 @@
+[Unit]
+Description=Refresh Postiz publication cadence formats every five minutes
+[Timer]
+OnBootSec=3min
+OnUnitActiveSec=5min
+Persistent=true
+[Install]
+WantedBy=timers.target
