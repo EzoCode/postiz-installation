@@ -12,4 +12,4 @@ Claude s'occupe du reste et te dira quand ouvrir la page de Postiz.
 
 ---
 
-Contenu : Postiz 2.25.0 (version figée), les correctifs de Marceau (Facebook trouve toutes les Pages, YouTube ne se déconnecte plus, statistiques, boîte de réception, grille Création, suivi) et un installateur. Aucun mot de passe, aucune clé ni aucune donnée de Marceau n'est dans ce dépôt : l'installateur génère les tiens.
+Contenu : Postiz 2.25.0 (version figée), les correctifs de Marceau (Facebook trouve toutes les Pages, YouTube ne se déconnecte plus, statistiques, boîte de réception, grille Création, suivi) un installateur et son skill qui écrit les descriptions des publications (dossier `skills`). Aucun mot de passe, aucune clé ni aucune donnée de Marceau n'est dans ce dépôt : l'installateur génère les tiens.

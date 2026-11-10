@@ -66,3 +66,7 @@ docker compose logs --tail 50 postiz
 ```
 
 Arrêter : `docker compose down`. Relancer : `docker compose up -d`. Les données sont dans `data/` : à sauvegarder.
+
+## 8. Skills de description
+
+Le dossier `skills/` contient le skill de Marceau qui écrit les légendes et descriptions des publications et les programme dans Postiz. Mode d'emploi : `skills/LISEZ-MOI.md`. À installer une fois Postiz en marche.

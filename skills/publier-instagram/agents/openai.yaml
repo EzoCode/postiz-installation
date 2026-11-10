@@ -1,0 +1,4 @@
+interface:
+  display_name: "Publier sur Instagram"
+  short_description: "Reels, descriptions et covers des trois chaînes"
+  default_prompt: "Utilise $publier-instagram pour publier mon épisode avec sa description et sa couverture sur la bonne chaîne."
