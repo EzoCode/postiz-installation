@@ -6,7 +6,7 @@ Postiz sert à programmer des publications sur Instagram, Facebook, YouTube, Tik
 
 Ouvre Claude (Claude Code), et colle-lui ce message :
 
-> Installe-moi Postiz depuis ce dépôt GitHub en suivant son fichier INSTALLATION-POUR-CLAUDE.md : <colle ici le lien de cette page>
+> Installe-moi Postiz depuis ce dépôt GitHub en suivant son fichier INSTALLATION-POUR-CLAUDE.md : https://github.com/EzoCode/postiz-installation
 
 Claude s'occupe du reste et te dira quand ouvrir la page de Postiz.
 

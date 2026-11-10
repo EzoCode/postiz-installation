@@ -5,7 +5,7 @@ La personne qui t'envoie ici ne connaît rien à la technique. Fais tout toi-mê
 ## 1. Récupérer le dépôt
 
 ```bash
-git clone <URL de ce dépôt> ~/postiz && cd ~/postiz
+git clone https://github.com/EzoCode/postiz-installation ~/postiz && cd ~/postiz
 ```
 
 Copie-le tout de suite en local : le dépôt public sera supprimé peu après.
